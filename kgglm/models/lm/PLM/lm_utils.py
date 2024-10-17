@@ -2,7 +2,7 @@ import time
 from typing import Dict, List, Tuple
 
 import torch
-from tqdm import tqdm
+from tqdm.auto import tqdm
 from transformers import TrainerCallback
 
 from kgglm.datasets.datasets_utils import get_user_negatives

@@ -1,6 +1,6 @@
 from typing import Dict, Tuple
 
-from tqdm import tqdm
+from tqdm.auto import tqdm
 
 from kgglm.evaluation.beyond_accuracy_metrics import (COVERAGE, DIVERSITY,
                                                        NOVELTY, PFAIRNESS,

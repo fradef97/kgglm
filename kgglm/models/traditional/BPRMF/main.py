@@ -7,7 +7,7 @@ from time import time
 import numpy as np
 import torch
 import torch.optim as optim
-from tqdm import tqdm
+from tqdm.auto import tqdm
 
 from kgglm.evaluation.eval_metrics import evaluate_rec_quality
 from kgglm.evaluation.eval_utils import save_topks_items_results

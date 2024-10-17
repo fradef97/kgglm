@@ -4,7 +4,7 @@ from typing import List, Tuple, Dict
 
 import numpy as np
 import pandas as pd
-from tqdm import tqdm
+from tqdm.auto import tqdm
 from torchkge import KnowledgeGraph
 
 from kgglm.utils import get_dataset_id2eid

@@ -1,5 +1,5 @@
 import numpy as np
-from tqdm import tqdm
+from tqdm.auto import tqdm
 
 from kgglm.knowledge_graphs.kg_macros import (ENTITY_LIST, INTERACTION,
                                                PRODUCT, RELATION_LIST, USER)

@@ -5,7 +5,7 @@ import pickle
 from collections import defaultdict
 from typing import Dict, List
 
-from tqdm import tqdm
+from tqdm.auto import tqdm
 
 from kgglm.utils import get_dataset_id2eid, get_model_dir
 

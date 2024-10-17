@@ -4,7 +4,7 @@ import random
 from collections import Counter
 from typing import Dict, List
 
-from tqdm import tqdm
+from tqdm.auto import tqdm
 
 from kgglm.datasets.datasets_utils import get_set, get_user_negatives
 from kgglm.evaluation.beyond_accuracy_metrics import (DIVERSITY, NOVELTY,

@@ -1,7 +1,7 @@
 from collections import defaultdict
 import numpy as np
 from kgglm.utils import get_data_dir
-from tqdm import tqdm
+from tqdm.auto import tqdm
 import os
 import pandas as pd
 import random

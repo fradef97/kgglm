@@ -11,7 +11,7 @@ from os import makedirs
 import numpy as np
 import torch
 from easydict import EasyDict as edict
-from tqdm import tqdm
+from tqdm.auto import tqdm
 
 from kgglm.models.rl.UCPR.para_setting import (parameter_path,
                                                 parameter_path_th)

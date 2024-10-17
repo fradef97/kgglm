@@ -4,7 +4,7 @@ import numpy as np
 import torch
 import wandb
 from datasets import Dataset
-from tqdm import tqdm
+from tqdm.auto import tqdm
 from transformers import LogitsProcessorList, Trainer
 
 from kgglm.evaluation.eval_metrics import evaluate_rec_quality

@@ -4,7 +4,7 @@ from collections import defaultdict
 
 import numpy as np
 import pandas as pd
-from tqdm import tqdm
+from tqdm.auto import tqdm
 from kgglm.datasets.KARSDataset import KARSDataset
 from kgglm.knowledge_graphs.kg_utils import (KG_RELATION,
                                               MAIN_PRODUCT_INTERACTION)

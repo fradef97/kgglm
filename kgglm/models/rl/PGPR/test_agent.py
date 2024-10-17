@@ -6,7 +6,7 @@ from functools import reduce
 from math import log
 
 import torch
-from tqdm import tqdm
+from tqdm.auto import tqdm
 from kgglm.models.rl.PGPR.parser import parser_pgpr_test
 from kgglm.evaluation.eval_metrics import evaluate_rec_quality
 from kgglm.evaluation.eval_utils import (compute_mostpop_topk,

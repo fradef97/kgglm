@@ -6,7 +6,7 @@ import subprocess
 from os import makedirs
 
 from sklearn.model_selection import ParameterGrid
-from tqdm import tqdm
+from tqdm.auto import tqdm
 
 from kgglm.models.rl.PGPR.pgpr_utils import (BEST_CFG_DIR, BEST_CFG_FILE_PATH,
                                               BEST_TEST_METRICS_FILE_PATH,

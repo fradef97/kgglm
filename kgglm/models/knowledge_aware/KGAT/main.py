@@ -8,7 +8,7 @@ from time import time
 import numpy as np
 import torch
 from torch.utils.data import DataLoader, RandomSampler
-from tqdm import tqdm
+from tqdm.auto import tqdm
 
 from kgglm.datasets.datasets_utils import get_user_negatives
 from kgglm.evaluation.eval_metrics import evaluate_rec_quality

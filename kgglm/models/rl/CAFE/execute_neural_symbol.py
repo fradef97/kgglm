@@ -8,7 +8,7 @@ import pickle
 import logging
 import logging.handlers
 import os
-from tqdm import tqdm
+from tqdm.auto import tqdm
 import torch
 from torch.nn import functional as F
 
